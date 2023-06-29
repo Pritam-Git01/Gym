@@ -1,21 +1,16 @@
 .container {
-    margin: 2rem 8vw 2rem 8vw;
-   
-
+  margin: 2rem 8vw 2rem 8vw;
 }
-
 
 .wraper {
-    height: 32vh;
-    width: 86vw;
-    display: flex;
-    gap: 1.5rem;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    
-    
+  height: 32vh;
+  width: 86vw;
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
 }
 .wraper::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
