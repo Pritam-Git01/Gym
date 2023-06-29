@@ -1,0 +1,17 @@
+.wraper{
+    height: 32vh;
+    width: 20vw;
+    
+}
+.wraper img {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 0.4rem;
+}
+.wraper h2 {
+    text-align: center;
+    position: relative;
+    bottom: 8rem;
+    color: white;
+    
+}

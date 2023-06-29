@@ -1,0 +1,17 @@
+.wraper{
+    height: 42vh;
+    width: 20vw;
+    
+    
+}
+.wraper img {
+    height: 30vh;
+    width: 20vw;
+    border-radius: 0.4rem;
+}
+.wraper h3 {
+   margin: 0.6rem 0 0.6rem 2rem;
+}
+.wraper p {
+    margin-left: 2rem;
+ }
