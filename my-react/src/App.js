@@ -1,16 +1,13 @@
 
 import './App.css';
-
-import Program from './components/molecules/Program/program';
-import Trainers from './components/molecules/Trainers/trainers';
+import Home from './components/pages/Home/home';
 
 
 function App() {
   return (
    <div className='App'>
-    <Program/>
-    <Trainers/>
   
+  <Home/>
       </div>
     )
  
