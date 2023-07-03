@@ -1,0 +1,76 @@
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem; /* Adjust as needed */
+  }
+  
+  .form-group {
+    flex: 1;
+    margin: 0.5rem; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline; /* Add this line */
+  }
+  
+  /* Rest of the CSS code */
+  
+  .label-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .label-group label {
+    white-space: nowrap;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0.5rem;
+  }
+  
+  button {
+    margin-top: 1rem;
+  }
+  .blue-button {
+    background-color: blue;
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2.4rem;
+    width: 8rem;
+    border-radius: 0.4rem;
+    border: none;
+    
+  }
+  
+  input::placeholder {
+    font-weight: bold;
+  }
+  
+  textarea::placeholder {
+    font-weight: bold;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 1;
+   
+  }
+  
+  .form-container {
+    flex: 1;
+    
+   
+  }
+  
+  .form-header{
+    color: red;
+    padding-bottom: 1.4rem;
+  }

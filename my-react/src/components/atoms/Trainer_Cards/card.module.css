@@ -8,6 +8,11 @@
     height: 30vh;
     width: 20vw;
     border-radius: 0.4rem;
+
+}
+.wraper img:hover{
+    transform: scale(1.1,1.1);
+    scroll-behavior: smooth;
 }
 .wraper h3 {
    margin: 0.6rem 0 0.6rem 2rem;

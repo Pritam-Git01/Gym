@@ -11,7 +11,7 @@
     width: 100vw;
     display: flex; 
     align-items: center;
-    background-color: rgb(15, 15, 15);
+    background-color: #000;
     
     justify-content: space-between;
     
@@ -24,11 +24,13 @@
     gap: 2rem;
 }
 
-.nav_container a {
+.nav_container li {
     color: white;
     font-weight: 600;
     text-decoration: none;
     font-size: 1.2rem;
+    list-style-type: none;
+    cursor: pointer;
     
 }
 .nav_container a:hover {

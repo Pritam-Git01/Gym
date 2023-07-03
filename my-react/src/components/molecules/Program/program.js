@@ -36,7 +36,7 @@ const Program = () => {
         }
       ];
   return (
-    <div className={styles.container}>
+    <div  className={styles.container}>
       <h1 style={{marginBottom: "1.5rem"}}>Program</h1>
     <div className={styles.wraper}>
       

@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from "./trainers.module.css";
-import Card from '../../atoms/Trainer_Cards/card'
-import { useNavigate } from 'react-router-dom';
+import styles from "./team.module.css";
+import Card from '../../atoms/Trainer_Cards/card';
 
-const Trainers = () => {
-  const navigate = useNavigate();
+
+const Team = () => {
     const productData = [
         {
           id: 1,
@@ -34,6 +33,33 @@ const Trainers = () => {
           name: "Rini Dichard",
           profession: "Zumba Coach",
         },
+        {
+          id: 5,
+          image:"https://img.freepik.com/free-photo/portrait-handsome-bearded-athlete-black-t-shirt-posing-dumbbell-studio-isolated-gray-background_613910-6608.jpg?size=626&ext=jpg&ga=GA1.1.748170097.1687972562&semt=sph",
+          name: "Alex Costa",
+          profession: "Health Coach",
+        },
+        {
+          id: 6,
+          image:
+            "https://img.freepik.com/free-photo/happy-fitness-woman-standing-with-arms-folded_231208-10387.jpg?size=626&ext=jpg&ga=GA1.1.748170097.1687972562&semt=sph",
+          name: "Aliana Helly",
+          profession: "Nutrionist",
+        },
+        {
+          id: 7,
+          image:
+          "https://img.freepik.com/free-photo/young-healthy-man-athlete-posing-confident-with-ropes-gym_155003-32053.jpg?size=626&ext=jpg&ga=GA1.1.748170097.1687972562&semt=sph",
+          name: "David D' Costa",
+          profession: "Head Trainer",
+        },
+        {
+          id: 8,
+          image:
+           "https://img.freepik.com/free-photo/achievement-muscle-gym-man-active_1139-707.jpg?size=626&ext=jpg&ga=GA1.1.748170097.1687972562&semt=sph",
+          name: "Alex David",
+          profession: "Trainer",
+        },
       ];
   return (
     <div className={styles.wraper}>
@@ -47,11 +73,9 @@ const Trainers = () => {
     <div className={styles.container}>
         {productData.map(item => <div key={item.id}><Card data={item}/></div>)}
     </div>
-    <div className={styles.btn_container}>
-        <button className={styles.btn} onClick={() => navigate("/team")}>See the whole Team</button>
-    </div>
+   
     </div>
   )
 }
 
-export default Trainers
+export default Team;

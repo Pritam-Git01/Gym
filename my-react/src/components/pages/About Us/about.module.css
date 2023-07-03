@@ -1,0 +1,48 @@
+.wraper {
+    height: 78vh;
+    margin: 4rem 8rem;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+.first_container, .second_container{
+    height: 48.9%;
+   margin: auto;
+    width: 90%;
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+
+}
+
+.video_player{
+    height: 96%;
+    width: 30%;
+    padding-right: 4rem;
+   
+}
+.about_text{
+    height: 96%;
+    width: 50%;
+    padding-top: 0.5rem;
+    
+    /* padding: 0.5rem 1.2rem 0 2.8rem; */
+    
+}
+.about_text p {
+    padding: 0.8rem 0;
+}
+ .about_text h1 {
+    color: red;
+    font-size: 2.2rem;
+    font-weight: 740;
+}
+.about_text li {
+    color: red;
+    font-size: 1.9rem;
+    font-weight: 600; 
+}
+.para {
+    margin-left: 2.4rem;
+}
