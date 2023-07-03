@@ -1,5 +1,9 @@
 .container {
   margin: 2rem 8vw 2rem 8vw;
+  text-align: center;
+  
+  
+  font-weight: 750;
 }
 
 .wraper {

@@ -1,74 +1,35 @@
-import React from 'react' 
-import styled from "styled-components"
-import Button from "./resusable/Button";
+import React from "react";
+import styles from "./navbar.module.css";
+import Button from "../../atoms/Button/button";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
-const menusData = [
-    {
-        id: 1,
-        name: "Home",
-    },
-    {
-        id: 2,
-        name: "Aboutus",
-    },
-    {
-        id: 3,
-        name: "Classes",
-    },
-    {
-        id: 4,
-        name: "Blogs",
-    },
-];
-
-export const Header = () => {
+const Navbar = () => {
+  
   return (
-    <Box>
-        <Left>
-            <H3>FITNESS GYM</H3>
-        </Left>
-        <Right>
-        <Menus>
-        {menusData.map((_, index) => {
-            return (
-                <Menu key={_.id}>{_.name}</Menu>
-            )
-        })}
-        </Menus>
-        <Button>
-            Join us
-        </Button>
-        </Right>
-    </Box>
-  );
-}
+    <div className={styles.wraper}>
+      <div className={styles.container}>
+        <h1 style={{ marginLeft: "2.4rem", color : "white" , fontSize: "22px" }}>Fitness Gym</h1>
+        
+          
+            <nav className={styles.nav_container}>
+              <a href="/">Home</a>
+              <a href="/">About Us</a>
+              <a href="/">Trainers</a>
+              <a href="/">Program</a>
+            </nav>
 
-const Box = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px 50px;
-`;
-const Left = styled.div``;
-const Right = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-`;
-const Menus = styled.div``;
-const Menu = styled.button`
-  outline: none;
-  border: none;
-  background-color: transparent;
-  color: white;
-  text-transform: capitalize;
-  margin-right: 30px;
-  font-size: 18px;
-`;
-const H3 = styled.h3`
-  font-size: 24px;
-  color: red; /* Changed color to red */
-  margin: 0;
-  padding: 0;
-`;
+            <div className={styles.btn}>
+              <Button name="Join Us"/>
+            </div>
+          
+        
+          <div className={styles.hamburger}>
+            <HiOutlineMenuAlt3 />
+          </div>
+        
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;

@@ -1,0 +1,12 @@
+
+.wraper img {
+    height: 90vh;
+    width: 100vw;
+
+}
+.text {
+    position: absolute;
+    bottom: 28vh;
+    left: 10vh;
+    color: white;
+}
