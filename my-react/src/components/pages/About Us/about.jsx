@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./about.module.css";
-import Navbar from "../../molecules/Navbar/navbar";
+
 import ReactPlayer from "react-player"
 import Button from "../../atoms/Button/button";
 
@@ -8,7 +8,7 @@ function About() {
   return (
     <>
 
-    <Navbar/>
+    
     <div className={styles.wraper}>
       <div className={styles.first_container}>
         <div className={styles.video_player}>
