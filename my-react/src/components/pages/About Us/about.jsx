@@ -32,7 +32,7 @@ function About() {
 
         </div>
         <div className={styles.video_player}>
-        <ReactPlayer style={{paddingTop: "1rem"}} height={"16rem"} width={"22.6rem"} controls url={"https://www.youtube.com/watch?v=HnoPHqrdXQ8&pp=ygUdZ3ltIHZpZGVvIHdpdGggc29vdGhpbmcgYXVkaW8%3D"}/>
+        <ReactPlayer style={{paddingTop: "1rem"}} height={"16rem"} width={"22.6rem"} controls url={"https://www.youtube.com/watch?v=C5WJ0BMYuUo&pp=ygUOZ3ltIG1vdGl2YXRpb24%3D"}/>
         </div>
         
       </div>
